@@ -1,0 +1,5 @@
+@import "../mixins/search-bar";
+
+.wearing-search-bar{
+    @include search-bar;
+}

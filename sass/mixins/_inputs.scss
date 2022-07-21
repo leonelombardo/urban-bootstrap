@@ -1,0 +1,15 @@
+@import "../custom";
+
+@mixin create-input(){
+    border: none;
+    outline: none;
+    border-bottom: 2px solid $lightgray;
+    background-color: transparent;
+    padding: 4px 0;
+    color: $lightgray;
+
+    &:focus{
+        color: $primary;
+        border-bottom: 2px solid $primary;
+    }
+}

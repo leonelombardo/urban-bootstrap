@@ -1,0 +1,17 @@
+@import "../custom";
+
+@mixin custom-scrollbar($bg, $bar){
+    &::-webkit-scrollbar{
+        background-color: $bg;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        border: 5px solid $bg;
+        border-radius: 15px;
+        background-color: $bar;
+
+        &:hover{
+            background-color: $lightgray;
+        }
+    }
+}
